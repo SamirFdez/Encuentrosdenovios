@@ -7,7 +7,6 @@ function App() {
     <>
       <Header />
       <h1>Esto viene desde el App.js</h1>
-      <Juan />
     </>
   );
 }
