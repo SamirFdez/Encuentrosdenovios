@@ -1,0 +1,32 @@
+.container {
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+    
+}
+
+/* .buttom {
+    background-color: gray !important;
+} */
+
+.buttom::hover {
+    border: 20px solid gray !important;
+    box-shadow: none !important;
+
+}
+
+.labelnum {
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.labelciudad {
+    font-size: 1.2em;
+    text-align: right;
+    
+}
+
+.divtext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
