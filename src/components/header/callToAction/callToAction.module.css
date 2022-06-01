@@ -7,20 +7,17 @@
 /* .buttom {
     background-color: gray !important;
 } */
-
-.buttom::hover {
-    border: 20px solid gray !important;
-    box-shadow: none !important;
-
+.button {
+    font-size: 2em;
 }
 
 .labelnum {
     font-weight: 700;
-    font-size: 1.4em;
+    font-size: 2em;
 }
 
 .labelciudad {
-    font-size: 1.2em;
+    font-size: 1.6em;
     text-align: right;
     
 }

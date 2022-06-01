@@ -12,7 +12,7 @@ export const CallToAction = function() {
         <Container className= { callToActionStyles.container } >
             <Row>
                 <Col>
-                    <Button className= { callToActionStyles.buttom } variant="info" size="lg">Request a Call Back</Button>{' '}
+                    <Button className= { callToActionStyles.button } variant="info" size="lg">Request a Call Back</Button>{' '}
                 </Col>
 
                 <Col>
