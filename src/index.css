@@ -5,10 +5,14 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-
 /* text decoration no ta haciendo na */
+
+/* font size 65.25% = 10 px, 1 em = 10px */
+
 html{
     text-decoration: none; 
+    font-size: 65.25%; 
+
     
 
 }
