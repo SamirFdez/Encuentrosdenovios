@@ -1,17 +1,16 @@
 import "./App.css";
-import { Header } from "./components/header/header";
-import { Menu } from "./components/nav/nav";
-import { Home } from "./components/header/homeView";
-import { Features } from "./components/header/featuresView";
-import { Pricing } from "./components/header/pricing";
-
+import { CallToAction } from "./components/header/callToAction/callToAction";
+import { Navegation } from "./components/header/navbar/nav";
+import { Home } from "./components/views/homeView/homeView";
+import { Features } from "./components/views/featuresView/featuresView";
+import { Pricing } from "./components/views/pricingView/pricing";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Menu />
+      <CallToAction />
+      <Navegation />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/features" element={<Features />} />
