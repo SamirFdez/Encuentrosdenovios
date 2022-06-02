@@ -1,4 +1,5 @@
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.css';
 import { CallToAction } from "./components/header/callToAction/callToAction";
 import { Navegation } from "./components/header/navbar/nav";
 import { Home } from "./components/views/homeView/homeView";
