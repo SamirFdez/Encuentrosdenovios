@@ -1,4 +1,4 @@
-export const Carrusel = function(){
+export const Carousel = function(){
     return(
         <>
         <h1>THIS IS A HOME COMPONENT</h1>

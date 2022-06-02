@@ -1,10 +1,10 @@
 import "./App.css";
-import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/css/bootstrap.css";
 import { Navigation } from "./components/header/navbar/nav";
-import { Home } from "./components/views/homeView";
-import { Services } from "./components/views/services";
-import { AboutUS } from "./components/views/aboutUs";
-import { Contact } from "./components/views/contact";
+import { Home } from "./views/homeView";
+import { Services } from "./views/services";
+import { AboutUS } from "./views/aboutUs";
+import { Contact } from "./views/contact";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
