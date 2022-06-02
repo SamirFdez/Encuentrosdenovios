@@ -10,7 +10,6 @@ export const CallToAction = function() {
     const handleShow = () => setShow(true);
     
     return (   
-        
         <>
         <Modal show={show} onHide={handleClose} className= { callToActionStyles.modal }>
         <Modal.Header closeButton>
@@ -19,20 +18,20 @@ export const CallToAction = function() {
         <Modal.Body>
 
             <FloatingLabel controlId="floatingInput" label="Name" className="mb-3">
-                <Form.Control type="text" />
+                <Form.Control type="text" placeholder="Name"/>
             </FloatingLabel>
 
             <FloatingLabel controlId="floatingInput" label="Phone" className="mb-3">
-                <Form.Control type="number" />
+                <Form.Control type="number" placeholder="phone"/>
             </FloatingLabel>
 
             <FloatingLabel controlId="floatingInput" label="Email" className="mb-3">
-                <Form.Control type="email" />
+                <Form.Control type="email" placeholder="email"/>
             </FloatingLabel>
 
-            <FloatingLabel controlId="floatingSelectGrid" label="Service">
+            <FloatingLabel controlId="floatingSelectGrid" label="Open this select menu">
                 <Form.Select aria-label="Floating label select example" className="mb-3">
-                    <option >Open this select menu</option>
+                    <option>Open this select menu</option>
                     <option value="1">Service 1</option>
                     <option value="2">Service 2</option>
                     <option value="3">Service 3</option>
@@ -40,13 +39,12 @@ export const CallToAction = function() {
             </FloatingLabel>
 
             <FloatingLabel controlId="floatingTextarea2" label="Message">
-                <Form.Control as="textarea" style={{ height: '80px' }} />
+                <Form.Control as="textarea" placeholder="Message" style={{ height: '80px' }} />
             </FloatingLabel>
         </Modal.Body>
 
-
         <Modal.Footer>
-          <Button variant="success" size="lg" onClick={handleClose}> Send </Button>
+          <Button variant="success" size="bg" onClick={handleClose}> Send </Button>
         </Modal.Footer>
         </Modal>
 

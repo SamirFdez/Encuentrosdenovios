@@ -18,16 +18,16 @@ export const Navegation = function() {
       {/* El nav esta en display: flex por default */}
       <Nav className={navStyles.nav}>
         <Nav.Link>
-          <Link className={navStyles.link} to='/Navegation1'>Navegation 1</Link>
+          <Link className={navStyles.link} to='/'>Home</Link>
         </Nav.Link>
         <Nav.Link>
-          <Link className={navStyles.link} to='/Navegation2'>Navegation 2</Link>
+          <Link className={navStyles.link} to='/Services'>Services</Link>
         </Nav.Link>
         <Nav.Link>
-          <Link className={navStyles.link} to='/Navegation3'>Navegation 3</Link>
+          <Link className={navStyles.link} to='/AboutUS'>About Us</Link>
         </Nav.Link>
         <Nav.Link>
-          <Link className={navStyles.link} to='/Navegation4'>Navegation 4</Link>
+          <Link className={navStyles.link} to='/Contact'>Contact</Link>
         </Nav.Link>
       </Nav>
     </Navbar.Collapse>
