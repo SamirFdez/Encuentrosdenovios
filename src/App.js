@@ -1,6 +1,6 @@
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.css';
-import { Navegation } from "./components/header/navbar/nav";
+import { Navigation } from "./components/header/navbar/nav";
 import { Home } from "./components/views/homeView";
 import { Services } from "./components/views/services";
 import { AboutUS } from "./components/views/aboutUs";
@@ -10,7 +10,7 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div>
-      <Navegation />
+      <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Services" element={<Services />} />
