@@ -1,6 +1,5 @@
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.css';
-import { CallToAction } from "./components/header/callToAction/callToAction";
 import { Navegation } from "./components/header/navbar/nav";
 import { Home } from "./components/views/homeView";
 import { Services } from "./components/views/services";
@@ -11,7 +10,6 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div>
-      <CallToAction/>
       <Navegation />
       <Routes>
         <Route path="/" element={<Home />} />

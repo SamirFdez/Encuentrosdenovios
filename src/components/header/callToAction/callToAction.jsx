@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button, Modal, FloatingLabel, Form} from "react-bootstrap";
-import callToActionStyles from "./callToAction.module.css";
+import callToActionStyles  from "./callToAction.module.css"
 import { useState } from 'react';
 
 export const CallToAction = function() {
@@ -11,7 +11,7 @@ export const CallToAction = function() {
     
     return (   
         <>
-        <Modal show={show} onHide={handleClose} className= { callToActionStyles.modal }>
+        <Modal size="lg" aria-labelledby="contained-modal-title-vcenter" centered show={show} onHide={handleClose} className= { callToActionStyles.modal }> 
         <Modal.Header closeButton>
           <Modal.Title>Request a Call Back</Modal.Title>
         </Modal.Header>
@@ -43,8 +43,8 @@ export const CallToAction = function() {
             </FloatingLabel>
         </Modal.Body>
 
-        <Modal.Footer>
-          <Button variant="success" size="bg" onClick={handleClose}> Send </Button>
+        <Modal.Footer style={{justifyContent: "center"}}>
+          <Button variant="success" size="bg" onClick={handleClose} className= { callToActionStyles.buttonModal }> Submit </Button>
         </Modal.Footer>
         </Modal>
 
@@ -55,12 +55,14 @@ export const CallToAction = function() {
                 </Col>
 
                 <Col>
-                    <img src="" alt="" />
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} style={{height:"5.6em", width:"32em", justifySelf: "center"}}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                </svg>
                 </Col>
 
                 <Col>
                     <div className= { callToActionStyles.divtext }>
-                        <label className= { callToActionStyles.labelnum }> (412) 531-0183 </label>
+                        <label className= { callToActionStyles.labelnum }> (000) 000-0000 </label>
                         <label className= { callToActionStyles.labelciudad }> Georgia, GA</label>
                     </div>
                 </Col>
