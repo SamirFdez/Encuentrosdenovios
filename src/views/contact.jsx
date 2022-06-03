@@ -1,11 +1,12 @@
-import { MapContact } from "../components/map/map"
+import { MapContact } from "../components/contact/map/map"
+import { DetailViewContact } from "../components/contact/detailViewContact/detailViewContact"
 
 export const Contact = function(){
+
     return(
         <>
-
         <MapContact/>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aut non quae quos voluptas perferendis esse earum consequatur optio. Vel sapiente facere molestiae ad consequatur voluptates officia reiciendis ipsum. Nihil.</p>
+        <DetailViewContact/>
         </>
     )
 }

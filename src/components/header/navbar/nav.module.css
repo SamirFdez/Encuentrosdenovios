@@ -23,6 +23,7 @@
     font-weight: bold;
     display: inline-block !important;
     position: relative !important;
+    justify-content: center;
 }
   
 .link:after {
@@ -42,3 +43,10 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+.LogoMenu{
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.2em;
+    margin-bottom: 0.2em;
+}

@@ -1,0 +1,12 @@
+.Carousel {
+    display: flex !important;
+    width:100em;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+.ImgCarousel {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
