@@ -1,0 +1,27 @@
+.CardGroup {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-template-rows: auto;
+    gap: 2em; 
+    margin: 2em;
+}
+.Img {
+    width: 13em;
+    height: 10em;
+}
+
+.Title {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 990px) {
+    .CardGroup {
+        grid-template-columns: repeat(2, 6fr);
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .CardGroup {
+        grid-template-columns: repeat(1, 12fr);
+    }
+  }

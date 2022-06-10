@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Carousel} from "react-bootstrap";
+import {Container, Row, Carousel} from "react-bootstrap";
 import { useState } from "react";
 import carouselHomeStyles from "./carousel.module.css"
 
@@ -10,9 +10,10 @@ export const CarouselHome = function(){
       setIndex(selectedIndex);
     };
 
-    return(
+    return( 
         <>
             <Container>
+                <Row>
                 <Carousel activeIndex={index} onSelect={handleSelect} className={carouselHomeStyles.Carousel}> 
                     <Carousel.Item style={{height:"60em"}}>
                         <img className={carouselHomeStyles.ImgCarousel}
@@ -49,6 +50,7 @@ export const CarouselHome = function(){
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
+                </Row>
             </Container>
         </>
     )

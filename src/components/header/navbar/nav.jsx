@@ -6,7 +6,7 @@ import { CallToAction } from "../callToAction/callToAction";
 
 
 
-export const Navigation = function() {
+export const Header = function() {
 
     return (   
 
