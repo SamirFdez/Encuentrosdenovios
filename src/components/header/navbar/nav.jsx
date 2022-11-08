@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar,Container, Nav, Row, NavDropdown } from "react-bootstrap";
+import { Navbar,Container, Nav, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import navStyles from './nav.module.css'
 import { CallToAction } from "../callToAction/callToAction";
@@ -12,7 +12,6 @@ export const Header = function() {
     return (   
 
      <>
-
      <Navbar style={{backgroundColor: 'white', display: 'block'}} expand="md" sticky="top">
         <Row style={{marginLeft: '3.5em', marginRight: '3.5em'}}>
           <Container>
@@ -63,7 +62,5 @@ export const Header = function() {
           </Row>
         </Navbar>
     </>
-
-
  )
 }  

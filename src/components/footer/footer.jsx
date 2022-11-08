@@ -1,5 +1,5 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import {Col, Row} from "react-bootstrap";
 import { FaMapMarkerAlt, FaRegClock, FaBullhorn, FaInstagram, FaRegEnvelope, FaPhone, FaFacebookSquare } from "react-icons/fa";
 import footerStyles from './footer.module.css'
 
@@ -14,7 +14,7 @@ export const Footer = function(){
             <Row className={footerStyles.rowFooter}>
                 <Col className="col-12 col-sm-12 col-md-12 col-lg-3">
                     <FaMapMarkerAlt className={footerStyles.iconFooter}/>
-                    <h3>VISIT US</h3>
+                    <h3>VISÍTANOS</h3>
                     <h4>613 Brookline Blvd</h4>
                     <h4>Pittsburgh, PA 15226-2003</h4>
                     <br></br>
@@ -40,7 +40,7 @@ export const Footer = function(){
                     
                 <Col className="col-12 col-sm-12 col-md-12 col-lg-3">
                     <FaBullhorn className={footerStyles.iconFooter}/>
-                    <h3>CONTACT US</h3>
+                    <h3>CONTÁCTANOS</h3>
                     
                     <h4><FaFacebookSquare className={footerStyles.iconFooterContactUs}/> (412) 531-0183</h4>
                     <h4><FaInstagram className={footerStyles.iconFooterContactUs}/> (412) 531-0183</h4>
