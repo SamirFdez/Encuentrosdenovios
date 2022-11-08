@@ -1,6 +1,6 @@
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import { FaMapMarkerAlt, FaRegClock, FaBullhorn } from "react-icons/fa";
+import { FaMapMarkerAlt, FaRegClock, FaBullhorn, FaInstagram, FaRegEnvelope, FaPhone, FaFacebookSquare } from "react-icons/fa";
 import footerStyles from './footer.module.css'
 
 
@@ -9,7 +9,7 @@ export const Footer = function(){
     return (
 
         <>
-        <div className="container-fluid" style={{backgroundColor: "#0dcaf0", height: "auto"}}>
+        <div className="container-fluid" style={{backgroundColor: "#D02825", height: "auto"}}>
 
             <Row className={footerStyles.rowFooter}>
                 <Col className="col-12 col-sm-12 col-md-12 col-lg-3">
@@ -36,19 +36,18 @@ export const Footer = function(){
                         <Col className="col-2"><h4>Monday</h4></Col>
                         <Col className="col-3"><h4>Closed</h4></Col>
                     </Row>
-                    <br></br>
-                    <h4><strong>Emergency service is available</strong></h4>
                 </Col>
                     
                 <Col className="col-12 col-sm-12 col-md-12 col-lg-3">
                     <FaBullhorn className={footerStyles.iconFooter}/>
                     <h3>CONTACT US</h3>
-                    <h4><strong>Main:</strong> (412) 531-0183</h4>
-                    <h4><strong>Mobile:</strong> (412) 531-0183</h4>
-                    <br></br>
-                    <h4>PlumbingProyect@empresa.com</h4>
                     
+                    <h4><FaFacebookSquare className={footerStyles.iconFooterContactUs}/> (412) 531-0183</h4>
+                    <h4><FaInstagram className={footerStyles.iconFooterContactUs}/> (412) 531-0183</h4>
+                    <h4><FaPhone className={footerStyles.iconFooterContactUs}/> (412) 531-0183</h4>
+                    <h4><FaRegEnvelope className={footerStyles.iconFooterContactUs}/> (412) 531-0183</h4>
                 </Col>
+
             </Row>
 
             <Row className={footerStyles.rowFootercopy}>
