@@ -13,7 +13,7 @@ export const CallToAction = function() {
         <>
         <Modal size="lg" aria-labelledby="contained-modal-title-vcenter" centered show={show} onHide={handleClose} className= { callToActionStyles.modal }> 
         <Modal.Header closeButton>
-          <Modal.Title>Request a Call Back</Modal.Title>
+          <Modal.Title>Envíanos un correo</Modal.Title>
         </Modal.Header>
         <Modal.Body>
 
@@ -44,14 +44,14 @@ export const CallToAction = function() {
         </Modal.Body>
 
         <Modal.Footer style={{justifyContent: "center"}}>
-          <Button variant="success" size="bg" onClick={handleClose} className= { callToActionStyles.buttonModal }> Submit </Button>
+          <Button variant="success" size="bg" onClick={handleClose} className= { callToActionStyles.buttonModal }> Enviar </Button>
         </Modal.Footer>
         </Modal>
 
         <Container className= { callToActionStyles.container } >
              <Row>
                 <Col>
-                    <Button className= { callToActionStyles.button } variant="info" size="lg" onClick={handleShow}>Request a Call Back</Button>
+                    <Button className= { callToActionStyles.button } variant="danger" size="lg" onClick={handleShow}>Contacta con nosotros</Button>
                 </Col>
 
                 <Col>
@@ -61,7 +61,7 @@ export const CallToAction = function() {
                 <Col>
                     <div className= { callToActionStyles.divtext }>
                         <label className= { callToActionStyles.labelnum }> (000) 000-0000 </label>
-                        <label className= { callToActionStyles.labelciudad }> Georgia, GA</label>
+                        <label className= { callToActionStyles.labelciudad }> Santiago, Rep. Dom.</label>
                     </div>
                 </Col>
             </Row>

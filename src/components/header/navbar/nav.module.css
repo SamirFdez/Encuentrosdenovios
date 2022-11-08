@@ -3,7 +3,7 @@
 }
 
 .nav {
-    gap: 3em;  
+    gap: 2.5em;  
 }
 
 .navBarBrand {
@@ -34,7 +34,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #0dcaf0;
+    background-color: #D02825;
     transform-origin: bottom right;
     transition: transform 0.35s ease-out;
   }
@@ -47,6 +47,6 @@
 .LogoMenu{
     width: 1.5em;
     height: 1.5em;
-    margin-right: 0.2em;
-    margin-bottom: 0.2em;
+    margin-right: 0.3em;
+    margin-bottom: 0.4em;
 }
