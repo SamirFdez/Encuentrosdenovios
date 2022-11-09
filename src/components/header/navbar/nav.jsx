@@ -9,10 +9,10 @@ import { FaHome, FaRegAddressCard, FaChurch, FaPhone, FaRegLaughBeam} from "reac
 
 export const Header = function() {
 
-    return (   
+    return (    
 
      <>
-     <Navbar style={{backgroundColor: 'white', display: 'block'}} expand="md" sticky="top">
+     <Navbar style={{backgroundColor: 'white', display: 'block', padding: '0'}} expand="md" sticky="top">
         <Row style={{marginLeft: '3.5em', marginRight: '3.5em'}}>
           <Container>
             <CallToAction/>
@@ -54,7 +54,6 @@ export const Header = function() {
                       <FaPhone className={navStyles.LogoMenu}/>             
                         Contacto
                       </Link>
-
                   </Nav>
                 </Navbar.Collapse>
               </Container>

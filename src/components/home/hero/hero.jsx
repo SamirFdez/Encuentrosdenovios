@@ -13,9 +13,9 @@ export const Herohome = function(){
     return( 
         <>
                 <Carousel activeIndex={index} onSelect={handleSelect} className={heroHomestyles.Carousel}> 
-                    <Carousel.Item style={{height:"60em"}}>
+                    <Carousel.Item style={{height:"70em"}}>
                         <img className={heroHomestyles.ImgCarousel}
-                        src="https://www.greathomesaz.com/wp-content/uploads/2021/08/how-does-plumbing-work-e1548696261445.jpeg"
+                        src="https://www.flores.ninja/wp-content/uploads/2017/05/Flores.jpg"
                         alt="First slide"
                         />
                         <Carousel.Caption>
@@ -23,9 +23,9 @@ export const Herohome = function(){
                         </Carousel.Caption>
                     </Carousel.Item>
                     
-                    <Carousel.Item style={{height:"60em"}}>
+                    <Carousel.Item style={{height:"70em"}}>
                         <img className={heroHomestyles.ImgCarousel}
-                        src="https://www.greathomesaz.com/wp-content/uploads/2021/08/how-does-plumbing-work-e1548696261445.jpeg"
+                        src="https://www.flores.ninja/wp-content/uploads/2017/05/Flores.jpg"
                         alt="Second slide"
                         />
                         <Carousel.Caption>
@@ -33,9 +33,9 @@ export const Herohome = function(){
                         </Carousel.Caption>
                     </Carousel.Item>
 
-                    <Carousel.Item style={{height:"60em"}}>
+                    <Carousel.Item style={{height:"70em"}}>
                         <img className={heroHomestyles.ImgCarousel}
-                        src="https://www.greathomesaz.com/wp-content/uploads/2021/08/how-does-plumbing-work-e1548696261445.jpeg"
+                        src="https://www.flores.ninja/wp-content/uploads/2017/05/Flores.jpg"
                         alt="Third slide"
                         />
                         <Carousel.Caption>
