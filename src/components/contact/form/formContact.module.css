@@ -1,0 +1,25 @@
+.pTitle {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.pBody {
+    font-size: 2em;
+    text-align: justify;
+}
+
+.fLabel {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.fControl {
+    font-size: 1.3em;
+    width: 70%;
+}
+
+@media only screen and (max-width: 991px) {
+    .fControl {
+        width: 100%;
+    }
+  }
