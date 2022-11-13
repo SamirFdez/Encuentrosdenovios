@@ -1,11 +1,3 @@
-* {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-/* text decoration no ta haciendo na */
 
 /* font size 65.25% = 10 px, 1 em = 10px */
 
@@ -14,8 +6,10 @@ html{
     font-size: 65.25%; 
 }
 
-/* text decoration no ta haciendo na */
 body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-
 }
