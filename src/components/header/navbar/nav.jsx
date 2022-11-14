@@ -1,19 +1,17 @@
 import React from "react";
-import { Navbar,Container, Nav, Row, NavDropdown } from "react-bootstrap";
+import { Navbar,Container, Nav, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import navStyles from './nav.module.css'
 import { CallToAction } from "../callToAction/callToAction";
 import { FaHome, FaRegAddressCard, FaChurch, FaPhone, FaRegLaughBeam} from "react-icons/fa";
 
 
-
 export const Header = function() {
 
-    return (   
+    return (    
 
      <>
-
-     <Navbar style={{backgroundColor: 'white', display: 'block'}} expand="md" sticky="top">
+     <Navbar style={{backgroundColor: 'white', display: 'block', padding: '0'}} expand="lg" sticky="top">
         <Row style={{marginLeft: '3.5em', marginRight: '3.5em'}}>
           <Container>
             <CallToAction/>
@@ -21,7 +19,7 @@ export const Header = function() {
           </Row>
 
           <Row>
-            <Navbar bg="dark" expand="md">
+            <Navbar bg="dark" expand="lg">
               <Container>
                 <Navbar.Brand>
                   <Link className={navStyles.navBarBrand} to='/'>Encuentro Católico para Novios</Link>
@@ -36,7 +34,7 @@ export const Header = function() {
                         Inicio
                       </Link>
 
-                      <Link className={navStyles.link} to='/AboutUs'>
+                      <Link className={navStyles.link} to='/Nosotros'>
                       <FaRegAddressCard className={navStyles.LogoMenu}/>             
                           Nosotros
                       </Link>    
@@ -46,7 +44,7 @@ export const Header = function() {
                           Retiros
                         </Link>
                                  
-                      <Link className={navStyles.link} to='/Services'>
+                      <Link className={navStyles.link} to='/Eventos'>
                       <FaRegLaughBeam className={navStyles.LogoMenu}/>
                         Eventos
                       </Link>
@@ -55,7 +53,6 @@ export const Header = function() {
                       <FaPhone className={navStyles.LogoMenu}/>             
                         Contacto
                       </Link>
-
                   </Nav>
                 </Navbar.Collapse>
               </Container>
@@ -63,7 +60,5 @@ export const Header = function() {
           </Row>
         </Navbar>
     </>
-
-
  )
 }  
