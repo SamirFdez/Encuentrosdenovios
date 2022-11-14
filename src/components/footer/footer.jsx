@@ -9,7 +9,7 @@ export const Footer = function(){
     return (
 
         <>
-        <div className="container-fluid" style={{backgroundColor: "#D02825", height: "auto"}}>
+        <div className="container-fluid" style={{backgroundColor: "#D02825", height: "auto", width: "100%"}}>
 
             <Row className={footerStyles.rowFooter}>
                 <Col className="col-12 col-sm-12 col-md-12 col-lg-3">
