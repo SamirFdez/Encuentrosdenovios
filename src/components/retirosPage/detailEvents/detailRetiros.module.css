@@ -1,0 +1,45 @@
+.pTitle {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.pBody {
+    font-size: 2em;
+    text-align: justify;
+}
+
+.cardDate {
+    font-size: 2em;
+    color: gray;
+    
+}
+
+.cardTitle {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.cardBody {
+    font-size: 2em;
+    text-align: justify;
+}
+
+.rowCalendar {
+    margin-top: 1.5em;
+    margin-left: 0em;
+  }
+
+.rowProximosEventos {
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .rowCalendar {
+        margin-top: 0em;
+        margin-left: 0em;
+    }
+
+    .rowProximosEventos {
+        margin-top: 0em;
+    }
+  }

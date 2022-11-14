@@ -1,8 +1,8 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap"
-import detailEventstStyles from './detailEvents.module.css'
+import detailRetirostStyles from './detailRetiros.module.css'
 import { CalendarComponent } from "../../calendar/calendar"
 
-export const DetailEvent = function() {
+export const RetirosDetails = function() {
 
     return (
         <>
@@ -10,29 +10,29 @@ export const DetailEvent = function() {
             <Row>
                 <Col xl={8}>
                     <Row>
-                        <p className = {detailEventstStyles.pTitle}> 
-                            Eventos
+                        <p className = {detailRetirostStyles.pTitle}> 
+                            Retiros
                         <hr></hr>
                         </p>
                     </Row>
 
                     <Row >
-                        <p className = {detailEventstStyles.pBody}> 
+                        <p className = {detailRetirostStyles.pBody}> 
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit incidunt impedit, odit iure architecto eaque quaerat praesentium quis eligendi consequuntur 
                         harum nihil ea facilis mollitia, maiores possimus perspiciatis, tempora nam?
                         </p>
                     </Row>
 
-                    <Row className={detailEventstStyles.rowProximosEventos}>
-                        <p className = {detailEventstStyles.pTitle}> 
-                            Próximos Eventos
+                    <Row className={detailRetirostStyles.rowProximosEventos}>
+                        <p className = {detailRetirostStyles.pTitle}> 
+                            Próximos Retiros
                         <hr></hr>
                         </p>
                     </Row>
                 </Col>
 
                 <Col xl={4}>
-                    <Row className = {detailEventstStyles.rowCalendar}>
+                    <Row className = {detailRetirostStyles.rowCalendar}>
                         <CalendarComponent/>
                     </Row>
                 </Col>
@@ -40,10 +40,10 @@ export const DetailEvent = function() {
 
             <Row style={{marginTop:"2em"}}>
                 <Card>
-                    <Card.Header className= {detailEventstStyles.cardDate}> Fecha del evento </Card.Header>
+                    <Card.Header className= {detailRetirostStyles.cardDate}> Fecha del evento </Card.Header>
                     <Card.Body>
-                    <Card.Title className= {detailEventstStyles.cardTitle}>Titulo del evento</Card.Title>
-                    <Card.Text className= {detailEventstStyles.cardBody}>
+                    <Card.Title className= {detailRetirostStyles.cardTitle}>Titulo del evento</Card.Title>
+                    <Card.Text className= {detailRetirostStyles.cardBody}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, reiciendis qui. Alias accusantium praesentium ipsum consequuntur saepe distinctio quo, delectus aut repellendus quas consectetur ducimus. Corrupti eos quaerat ea possimus.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dolorum labore eius cupiditate reprehenderit hic ullam. Veniam quibusdam nesciunt assumenda qui natus odio rem non illo dignissimos? Sed, quibusdam rerum.
                     </Card.Text>
@@ -54,10 +54,10 @@ export const DetailEvent = function() {
 
             <Row style={{ marginTop:"2em"}}>
                 <Card>
-                    <Card.Header className= {detailEventstStyles.cardDate}> Fecha del evento </Card.Header>
+                    <Card.Header className= {detailRetirostStyles.cardDate}> Fecha del evento </Card.Header>
                     <Card.Body>
-                    <Card.Title className= {detailEventstStyles.cardTitle}>Titulo del evento</Card.Title>
-                    <Card.Text className= {detailEventstStyles.cardBody}>
+                    <Card.Title className= {detailRetirostStyles.cardTitle}>Titulo del evento</Card.Title>
+                    <Card.Text className= {detailRetirostStyles.cardBody}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, reiciendis qui. Alias accusantium praesentium ipsum consequuntur saepe distinctio quo, delectus aut repellendus quas consectetur ducimus. Corrupti eos quaerat ea possimus.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dolorum labore eius cupiditate reprehenderit hic ullam. Veniam quibusdam nesciunt assumenda qui natus odio rem non illo dignissimos? Sed, quibusdam rerum.
                     </Card.Text>
@@ -68,10 +68,10 @@ export const DetailEvent = function() {
 
             <Row style={{ marginTop:"2em"}}>
                 <Card>
-                    <Card.Header className= {detailEventstStyles.cardDate}> Fecha del evento </Card.Header>
+                    <Card.Header className= {detailRetirostStyles.cardDate}> Fecha del evento </Card.Header>
                     <Card.Body>
-                    <Card.Title className= {detailEventstStyles.cardTitle}>Titulo del evento</Card.Title>
-                    <Card.Text className= {detailEventstStyles.cardBody}>
+                    <Card.Title className= {detailRetirostStyles.cardTitle}>Titulo del evento</Card.Title>
+                    <Card.Text className= {detailRetirostStyles.cardBody}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, reiciendis qui. Alias accusantium praesentium ipsum consequuntur saepe distinctio quo, delectus aut repellendus quas consectetur ducimus. Corrupti eos quaerat ea possimus.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dolorum labore eius cupiditate reprehenderit hic ullam. Veniam quibusdam nesciunt assumenda qui natus odio rem non illo dignissimos? Sed, quibusdam rerum.
                     </Card.Text>

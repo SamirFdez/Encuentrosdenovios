@@ -39,7 +39,7 @@ export const Header = function() {
                           Nosotros
                       </Link>    
 
-                      <Link className={navStyles.link} to='/AboutUs'>
+                      <Link className={navStyles.link} to='/Retiros'>
                         <FaChurch className={navStyles.LogoMenu}/>
                           Retiros
                         </Link>
