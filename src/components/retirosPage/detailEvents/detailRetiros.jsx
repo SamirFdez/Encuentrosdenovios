@@ -23,7 +23,7 @@ export const RetirosDetails = function() {
                         </p>
                     </Row>
 
-                    <Row className={detailRetirostStyles.rowProximosEventos}>
+                    <Row className={detailRetirostStyles.rowProximosretiros}>
                         <p className = {detailRetirostStyles.pTitle}> 
                             Próximos Retiros
                         <hr></hr>
@@ -40,9 +40,9 @@ export const RetirosDetails = function() {
 
             <Row style={{marginTop:"2em"}}>
                 <Card>
-                    <Card.Header className= {detailRetirostStyles.cardDate}> Fecha del evento </Card.Header>
+                    <Card.Header className= {detailRetirostStyles.cardDate}> Fecha del retiro </Card.Header>
                     <Card.Body>
-                    <Card.Title className= {detailRetirostStyles.cardTitle}>Titulo del evento</Card.Title>
+                    <Card.Title className= {detailRetirostStyles.cardTitle}>Titulo del retiro</Card.Title>
                     <Card.Text className= {detailRetirostStyles.cardBody}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, reiciendis qui. Alias accusantium praesentium ipsum consequuntur saepe distinctio quo, delectus aut repellendus quas consectetur ducimus. Corrupti eos quaerat ea possimus.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dolorum labore eius cupiditate reprehenderit hic ullam. Veniam quibusdam nesciunt assumenda qui natus odio rem non illo dignissimos? Sed, quibusdam rerum.
@@ -54,9 +54,9 @@ export const RetirosDetails = function() {
 
             <Row style={{ marginTop:"2em"}}>
                 <Card>
-                    <Card.Header className= {detailRetirostStyles.cardDate}> Fecha del evento </Card.Header>
+                    <Card.Header className= {detailRetirostStyles.cardDate}> Fecha del retiro </Card.Header>
                     <Card.Body>
-                    <Card.Title className= {detailRetirostStyles.cardTitle}>Titulo del evento</Card.Title>
+                    <Card.Title className= {detailRetirostStyles.cardTitle}>Titulo del retiro</Card.Title>
                     <Card.Text className= {detailRetirostStyles.cardBody}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, reiciendis qui. Alias accusantium praesentium ipsum consequuntur saepe distinctio quo, delectus aut repellendus quas consectetur ducimus. Corrupti eos quaerat ea possimus.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dolorum labore eius cupiditate reprehenderit hic ullam. Veniam quibusdam nesciunt assumenda qui natus odio rem non illo dignissimos? Sed, quibusdam rerum.
@@ -68,9 +68,9 @@ export const RetirosDetails = function() {
 
             <Row style={{ marginTop:"2em"}}>
                 <Card>
-                    <Card.Header className= {detailRetirostStyles.cardDate}> Fecha del evento </Card.Header>
+                    <Card.Header className= {detailRetirostStyles.cardDate}> Fecha del retiro </Card.Header>
                     <Card.Body>
-                    <Card.Title className= {detailRetirostStyles.cardTitle}>Titulo del evento</Card.Title>
+                    <Card.Title className= {detailRetirostStyles.cardTitle}>Titulo del retiro</Card.Title>
                     <Card.Text className= {detailRetirostStyles.cardBody}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, reiciendis qui. Alias accusantium praesentium ipsum consequuntur saepe distinctio quo, delectus aut repellendus quas consectetur ducimus. Corrupti eos quaerat ea possimus.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dolorum labore eius cupiditate reprehenderit hic ullam. Veniam quibusdam nesciunt assumenda qui natus odio rem non illo dignissimos? Sed, quibusdam rerum.

@@ -1,7 +1,7 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap"
 import detailEventstStyles from './detailEvents.module.css'
 import { CalendarComponent } from "../../calendar/calendar"
-
+ 
 export const DetailEvent = function() {
 
     return (

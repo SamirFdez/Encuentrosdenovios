@@ -49,7 +49,7 @@ export const Header = function() {
                         Eventos
                       </Link>
                       
-                      <Link className={navStyles.link} to='/Contact'>
+                      <Link className={navStyles.link} to='/Contacto'>
                       <FaPhone className={navStyles.LogoMenu}/>             
                         Contacto
                       </Link>
